@@ -11,4 +11,8 @@ public abstract class Coffee {
     public Coffee(String name) {
         this.name = name;
     }
+
+    public String getName() {
+        return name;
+    }
 }

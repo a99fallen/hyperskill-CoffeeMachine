@@ -1,5 +1,5 @@
 package com.coffeemachine;
-public class Main {
+public class CoffeeMachine {
 
     public static void main(String[] args) {
 
