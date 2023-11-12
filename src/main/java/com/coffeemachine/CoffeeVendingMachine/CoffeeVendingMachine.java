@@ -73,20 +73,15 @@ public class CoffeeVendingMachine {
             this.amountOfMilk -= requiredMilk;
             this.amountOfCoffee -= requiredCoffee;
             this.amountOfDisposableCups -= 1;
-            System.out.println("I have enough resources, making you a coffee!");
-            this.amountOfMoney += earnedCash;
             output = "I have enough resources, making you a coffee!";
+            this.amountOfMoney += earnedCash;
         } else if (amountOfWater < requiredWater) {
-            System.out.println("Sorry, not enough water!");
             output = "Sorry, not enough water!";
         } else if (amountOfMilk < requiredMilk) {
-            System.out.println("Sorry, not enough milk!");
             output = "Sorry, not enough milk!";
         } else if (amountOfCoffee < requiredCoffee) {
-            System.out.println("Sorry, not enough coffee!");
             output = "Sorry, not enough coffee!";
         } else if (amountOfDisposableCups < 1) {
-            System.out.println("Sorry, not enough disposable cups!");
             output = "Sorry, not enough disposable cups!";
         }
         return output;

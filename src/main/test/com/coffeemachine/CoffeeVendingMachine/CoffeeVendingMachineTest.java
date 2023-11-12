@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class CoffeeVendingMachineTest {
 
     CoffeeVendingMachine cvm = new CoffeeVendingMachine(400, 540, 120, 9, 550);
-
+    Coffee coffee = new Cappuccino("Cappuccino");
     @Test
     void getAmountOfWater() {
         int expectedWater = 400;
@@ -78,8 +78,6 @@ class CoffeeVendingMachineTest {
     @Test
     void makeCoffeeCheckTest() {
 
-        Coffee coffee = new Cappuccino("Cappuccino");
-
         cvm.makeCoffee(coffee);
 
         assertEquals(200, cvm.getAmountOfWater());
@@ -99,42 +97,46 @@ class CoffeeVendingMachineTest {
 
     @Test
     void makeCoffeeWithInsufficientWater() {
-        String expectedNotEnoughWaterString = "Sorry, not enough water!";
+        String expectedOutput = "Sorry, not enough water!";
 
-        Coffee coffee = new Cappuccino("Cappuccino");
         cvm.setAmountOfWater(50);
+        boolean notEnoughWater = coffee.getWater() > cvm.getAmountOfWater();
 
-        assertEquals(expectedNotEnoughWaterString, cvm.makeCoffee(coffee));
+        assertTrue(notEnoughWater);
+        assertEquals(expectedOutput, cvm.makeCoffee(coffee));
     }
 
     @Test
     void makeCoffeeWithInsufficientMilk() {
-        String expectedNotEnoughMilkString = "Sorry, not enough milk!";
+        String expectedOutput = "Sorry, not enough milk!";
 
-        Coffee coffee = new Cappuccino("Cappuccino");
         cvm.setAmountOfMilk(10);
+        boolean notEnoughMilk = coffee.getMilk() > cvm.getAmountOfMilk();
 
-        assertEquals(expectedNotEnoughMilkString, cvm.makeCoffee(coffee));
+        assertTrue(notEnoughMilk);
+        assertEquals(expectedOutput, cvm.makeCoffee(coffee));
     }
 
     @Test
     void makeCoffeeWithInsufficientCoffee() {
-        String expectedNotEnoughCoffeeString = "Sorry, not enough coffee!";
+        String expectedOutput = "Sorry, not enough coffee!";
 
-        Coffee coffee = new Cappuccino("Cappuccino");
-        cvm.setAmountOfCoffee(10);
+        cvm.setAmountOfCoffee(5);
+        boolean notEnoughCoffee = coffee.getCoffee() > cvm.getAmountOfCoffee();
 
-        assertEquals(expectedNotEnoughCoffeeString, cvm.makeCoffee(coffee));
+        assertTrue(notEnoughCoffee);
+        assertEquals(expectedOutput, cvm.makeCoffee(coffee));
     }
 
     @Test
     void makeCoffeeWithInsufficientDisposableCups() {
-        String expectedNotEnoughDisposableCupsString = "Sorry, not enough disposable cups!";
+        String expectedOutput = "Sorry, not enough disposable cups!";
 
-        Coffee coffee = new Cappuccino("Cappuccino");
         cvm.setAmountOfDisposableCups(0);
+        boolean notEnoughDisposableCups = cvm.getAmountOfDisposableCups() <= 0;
 
-        assertEquals(expectedNotEnoughDisposableCupsString, cvm.makeCoffee(coffee));
+        assertTrue(notEnoughDisposableCups);
+        assertEquals(expectedOutput, cvm.makeCoffee(coffee));
     }
 
     @Test

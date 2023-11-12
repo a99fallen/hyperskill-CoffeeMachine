@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b5511b15-41c1-433f-96c3-038b953f2d96" name="Changes" comment="testing :: add testing of classes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coffeemachine/CoffeeMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/coffeemachine/CoffeeMachine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/coffeemachine/CoffeeVendingMachine/CoffeeVendingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/coffeemachine/CoffeeVendingMachine/CoffeeVendingMachine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/test/com/coffeemachine/CoffeeVendingMachine/CoffeeVendingMachineTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/com/coffeemachine/CoffeeVendingMachine/CoffeeVendingMachineTest.java" afterDir="false" />
     </list>
@@ -60,6 +61,19 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.All in CoffeeMachine">
+    <configuration name="CoffeeMachine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.coffeemachine.CoffeeMachine" />
+      <module name="CoffeeMachine" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.coffeemachine.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="All in CoffeeMachine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CoffeeMachine" />
       <option name="PACKAGE_NAME" value="" />
@@ -84,7 +98,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CoffeeVendingMachineTest.makeCoffeeWithInsufficientCoffee" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CoffeeVendingMachineTest.makeCoffeeWithEnoughSupplies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CoffeeMachine" />
       <extension name="coverage">
         <pattern>
@@ -94,13 +108,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.coffeemachine.CoffeeVendingMachine" />
       <option name="MAIN_CLASS_NAME" value="com.coffeemachine.CoffeeVendingMachine.CoffeeVendingMachineTest" />
-      <option name="METHOD_NAME" value="makeCoffeeWithInsufficientCoffee" />
+      <option name="METHOD_NAME" value="makeCoffeeWithEnoughSupplies" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CoffeeVendingMachineTest.makeCoffeeWithInsufficientDisposableCups" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CoffeeVendingMachineTest.makeCoffeeWithInsufficientWater" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CoffeeMachine" />
       <extension name="coverage">
         <pattern>
@@ -110,42 +124,26 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.coffeemachine.CoffeeVendingMachine" />
       <option name="MAIN_CLASS_NAME" value="com.coffeemachine.CoffeeVendingMachine.CoffeeVendingMachineTest" />
-      <option name="METHOD_NAME" value="makeCoffeeWithInsufficientDisposableCups" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CoffeeVendingMachineTest.makeCoffeeWithInsufficientMilk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CoffeeMachine" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.coffeemachine.CoffeeVendingMachine.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.coffeemachine.CoffeeVendingMachine" />
-      <option name="MAIN_CLASS_NAME" value="com.coffeemachine.CoffeeVendingMachine.CoffeeVendingMachineTest" />
-      <option name="METHOD_NAME" value="makeCoffeeWithInsufficientMilk" />
+      <option name="METHOD_NAME" value="makeCoffeeWithInsufficientWater" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.CoffeeMachine" />
       <item itemvalue="JUnit.All in CoffeeMachine" />
       <item itemvalue="JUnit.CoffeeVendingMachineTest.makeCoffeeCheckTest" />
-      <item itemvalue="JUnit.CoffeeVendingMachineTest.makeCoffeeWithInsufficientCoffee" />
-      <item itemvalue="JUnit.CoffeeVendingMachineTest.makeCoffeeWithInsufficientDisposableCups" />
-      <item itemvalue="JUnit.CoffeeVendingMachineTest.makeCoffeeWithInsufficientMilk" />
+      <item itemvalue="JUnit.CoffeeVendingMachineTest.makeCoffeeWithEnoughSupplies" />
+      <item itemvalue="JUnit.CoffeeVendingMachineTest.makeCoffeeWithInsufficientWater" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in CoffeeMachine" />
+        <item itemvalue="JUnit.CoffeeVendingMachineTest.makeCoffeeWithEnoughSupplies" />
+        <item itemvalue="JUnit.CoffeeVendingMachineTest.makeCoffeeWithInsufficientWater" />
+        <item itemvalue="Application.CoffeeMachine" />
         <item itemvalue="JUnit.CoffeeVendingMachineTest.makeCoffeeCheckTest" />
-        <item itemvalue="JUnit.CoffeeVendingMachineTest.makeCoffeeWithInsufficientDisposableCups" />
-        <item itemvalue="JUnit.CoffeeVendingMachineTest.makeCoffeeWithInsufficientCoffee" />
-        <item itemvalue="JUnit.CoffeeVendingMachineTest.makeCoffeeWithInsufficientMilk" />
       </list>
     </recent_temporary>
   </component>
@@ -230,9 +228,12 @@
     <SUITE FILE_PATH="coverage/CoffeeMachine$EspressoTest.ic" NAME="EspressoTest Coverage Results" MODIFIED="1699540847254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.coffeemachine.Coffee.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/CoffeeMachine$All_in_CoffeeMachine.ic" NAME="All in CoffeeMachine Coverage Results" MODIFIED="1699819582160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/CoffeeMachine$All_in_CoffeeMachine.ic" NAME="All in CoffeeMachine Coverage Results" MODIFIED="1699828577077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/CoffeeMachine$LatteTest.ic" NAME="LatteTest Coverage Results" MODIFIED="1699541055928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.coffeemachine.Coffee.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/CoffeeMachine$CoffeeVendingMachineTest_makeCoffeeWithInsufficientWater.ic" NAME="CoffeeVendingMachineTest.makeCoffeeWithInsufficientWater Coverage Results" MODIFIED="1699828187586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.coffeemachine.CoffeeVendingMachine.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/CoffeeMachine$CoffeeMachineTest.ic" NAME="CoffeeMachineTest Coverage Results" MODIFIED="1699541096838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.coffeemachine.*</FILTER>
