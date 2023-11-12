@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5511b15-41c1-433f-96c3-038b953f2d96" name="Changes" comment="Structure :: upgrade of CoffeeVendingMachine class">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coffeemachine/CoffeeMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/test/com/coffeemachine/CoffeeMachineTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoffeeMachine.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeMachine.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/coffeemachine/Coffee/Coffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/coffeemachine/Coffee/Coffee.java" afterDir="false" />
+    <list default="true" id="b5511b15-41c1-433f-96c3-038b953f2d96" name="Changes" comment="testing :: add testing of classes">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/coffeemachine/CoffeeVendingMachine/CoffeeVendingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/coffeemachine/CoffeeVendingMachine/CoffeeVendingMachine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/coffeemachine/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/com/coffeemachine/CoffeeVendingMachine/CoffeeVendingMachineTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/com/coffeemachine/CoffeeVendingMachine/CoffeeVendingMachineTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +68,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CoffeeVendingMachineTest.makeCoffeeWithEnoughSupplies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CoffeeVendingMachineTest.makeCoffeeCheckTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CoffeeMachine" />
       <extension name="coverage">
         <pattern>
@@ -82,7 +78,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.coffeemachine.CoffeeVendingMachine" />
       <option name="MAIN_CLASS_NAME" value="com.coffeemachine.CoffeeVendingMachine.CoffeeVendingMachineTest" />
-      <option name="METHOD_NAME" value="makeCoffeeWithEnoughSupplies" />
+      <option name="METHOD_NAME" value="makeCoffeeCheckTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -138,7 +134,7 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.All in CoffeeMachine" />
-      <item itemvalue="JUnit.CoffeeVendingMachineTest.makeCoffeeWithEnoughSupplies" />
+      <item itemvalue="JUnit.CoffeeVendingMachineTest.makeCoffeeCheckTest" />
       <item itemvalue="JUnit.CoffeeVendingMachineTest.makeCoffeeWithInsufficientCoffee" />
       <item itemvalue="JUnit.CoffeeVendingMachineTest.makeCoffeeWithInsufficientDisposableCups" />
       <item itemvalue="JUnit.CoffeeVendingMachineTest.makeCoffeeWithInsufficientMilk" />
@@ -146,10 +142,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in CoffeeMachine" />
+        <item itemvalue="JUnit.CoffeeVendingMachineTest.makeCoffeeCheckTest" />
         <item itemvalue="JUnit.CoffeeVendingMachineTest.makeCoffeeWithInsufficientDisposableCups" />
         <item itemvalue="JUnit.CoffeeVendingMachineTest.makeCoffeeWithInsufficientCoffee" />
         <item itemvalue="JUnit.CoffeeVendingMachineTest.makeCoffeeWithInsufficientMilk" />
-        <item itemvalue="JUnit.CoffeeVendingMachineTest.makeCoffeeWithEnoughSupplies" />
       </list>
     </recent_temporary>
   </component>
@@ -162,6 +158,23 @@
       <option name="presentableId" value="Default" />
       <updated>1699470570682</updated>
     </task>
+    <task id="LOCAL-00001" summary="structure :: upgrade of classes">
+      <option name="closed" value="true" />
+      <created>1699544139321</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1699544139321</updated>
+    </task>
+    <task id="LOCAL-00002" summary="testing :: add testing of classes">
+      <option name="closed" value="true" />
+      <created>1699544161028</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1699544161028</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -185,18 +198,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Structure :: upgrade of CoffeeVendingMachine class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Structure :: upgrade of CoffeeVendingMachine class" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/coffeemachine/CoffeeVendingMachine/CoffeeVendingMachine.java</url>
-          <line>64</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="structure :: upgrade of classes" />
+    <MESSAGE value="testing :: add testing of classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="testing :: add testing of classes" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/CoffeeMachine$com_coffeemachine_in_CoffeeMachine.ic" NAME="com.coffeemachine in CoffeeMachine Coverage Results" MODIFIED="1699542454176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -211,6 +215,9 @@
     <SUITE FILE_PATH="coverage/CoffeeMachine$CappuccinoTest.ic" NAME="CappuccinoTest Coverage Results" MODIFIED="1699541154902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.coffeemachine.Coffee.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/CoffeeMachine$CoffeeVendingMachineTest_makeCoffeeCheckTest.ic" NAME="CoffeeVendingMachineTest.makeCoffeeCheckTest Coverage Results" MODIFIED="1699819395496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.coffeemachine.CoffeeVendingMachine.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/CoffeeMachine$com_coffeemachine_Coffee_in_CoffeeMachine.ic" NAME="com.coffeemachine.Coffee in CoffeeMachine Coverage Results" MODIFIED="1699542392833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.coffeemachine.Coffee.*</FILTER>
     </SUITE>
@@ -223,7 +230,7 @@
     <SUITE FILE_PATH="coverage/CoffeeMachine$EspressoTest.ic" NAME="EspressoTest Coverage Results" MODIFIED="1699540847254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.coffeemachine.Coffee.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/CoffeeMachine$All_in_CoffeeMachine.ic" NAME="All in CoffeeMachine Coverage Results" MODIFIED="1699543636791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/CoffeeMachine$All_in_CoffeeMachine.ic" NAME="All in CoffeeMachine Coverage Results" MODIFIED="1699819582160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/CoffeeMachine$LatteTest.ic" NAME="LatteTest Coverage Results" MODIFIED="1699541055928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.coffeemachine.Coffee.*</FILTER>
     </SUITE>

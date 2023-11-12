@@ -76,6 +76,19 @@ class CoffeeVendingMachineTest {
     }
 
     @Test
+    void makeCoffeeCheckTest() {
+
+        Coffee coffee = new Cappuccino("Cappuccino");
+
+        cvm.makeCoffee(coffee);
+
+        assertEquals(200, cvm.getAmountOfWater());
+        assertEquals(440, cvm.getAmountOfMilk());
+        assertEquals(108, cvm.getAmountOfCoffee());
+        assertEquals(8, cvm.getAmountOfDisposableCups());
+    }
+
+    @Test
     void makeCoffeeWithEnoughSupplies() {
         String expectedString = "I have enough resources, making you a coffee!";
 
