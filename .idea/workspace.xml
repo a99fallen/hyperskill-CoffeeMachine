@@ -6,14 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="b5511b15-41c1-433f-96c3-038b953f2d96" name="Changes" comment="testing :: add testing of classes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeMachine.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeMachine.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/coffeemachine/CoffeeMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/coffeemachine/CoffeeMachine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/coffeemachine/CoffeeVendingMachine/CoffeeVendingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/coffeemachine/CoffeeVendingMachine/CoffeeVendingMachine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/test/com/coffeemachine/CoffeeVendingMachine/CoffeeVendingMachineTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/com/coffeemachine/CoffeeVendingMachine/CoffeeVendingMachineTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/com/coffeemachine/CoffeeMachineTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/com/coffeemachine/CoffeeMachineTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -34,33 +37,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "main",
-    "settings.editor.selected.configurable": "coverage"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;coverage&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.coffeemachine" />
       <recent name="com.coffeemachine.CoffeeVendingMachine" />
       <recent name="com.coffeemachine.Coffee" />
-      <recent name="com.coffeemachine" />
       <recent name="java.com.coffeemachine" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in CoffeeMachine">
+  <component name="RunManager" selected="Application.CoffeeMachine">
     <configuration name="CoffeeMachine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.coffeemachine.CoffeeMachine" />
       <module name="CoffeeMachine" />
@@ -82,17 +88,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CoffeeVendingMachineTest.makeCoffeeCheckTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CoffeeMachineTest.setAmountWhenInvalidInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CoffeeMachine" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.coffeemachine.CoffeeVendingMachine.*" />
+          <option name="PATTERN" value="com.coffeemachine.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.coffeemachine.CoffeeVendingMachine" />
-      <option name="MAIN_CLASS_NAME" value="com.coffeemachine.CoffeeVendingMachine.CoffeeVendingMachineTest" />
-      <option name="METHOD_NAME" value="makeCoffeeCheckTest" />
+      <option name="PACKAGE_NAME" value="com.coffeemachine" />
+      <option name="MAIN_CLASS_NAME" value="com.coffeemachine.CoffeeMachineTest" />
+      <option name="METHOD_NAME" value="setAmountWhenInvalidInput" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -133,17 +139,17 @@
     <list>
       <item itemvalue="Application.CoffeeMachine" />
       <item itemvalue="JUnit.All in CoffeeMachine" />
-      <item itemvalue="JUnit.CoffeeVendingMachineTest.makeCoffeeCheckTest" />
+      <item itemvalue="JUnit.CoffeeMachineTest.setAmountWhenInvalidInput" />
       <item itemvalue="JUnit.CoffeeVendingMachineTest.makeCoffeeWithEnoughSupplies" />
       <item itemvalue="JUnit.CoffeeVendingMachineTest.makeCoffeeWithInsufficientWater" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CoffeeMachine" />
         <item itemvalue="JUnit.All in CoffeeMachine" />
+        <item itemvalue="JUnit.CoffeeMachineTest.setAmountWhenInvalidInput" />
         <item itemvalue="JUnit.CoffeeVendingMachineTest.makeCoffeeWithEnoughSupplies" />
         <item itemvalue="JUnit.CoffeeVendingMachineTest.makeCoffeeWithInsufficientWater" />
-        <item itemvalue="Application.CoffeeMachine" />
-        <item itemvalue="JUnit.CoffeeVendingMachineTest.makeCoffeeCheckTest" />
       </list>
     </recent_temporary>
   </component>
@@ -213,6 +219,9 @@
     <SUITE FILE_PATH="coverage/CoffeeMachine$CappuccinoTest.ic" NAME="CappuccinoTest Coverage Results" MODIFIED="1699541154902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.coffeemachine.Coffee.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/CoffeeMachine$CoffeeMachineTest_setAmountWhenInvalidInput.ic" NAME="CoffeeMachineTest.setAmountWhenInvalidInput Coverage Results" MODIFIED="1699832858320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.coffeemachine.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/CoffeeMachine$CoffeeVendingMachineTest_makeCoffeeCheckTest.ic" NAME="CoffeeVendingMachineTest.makeCoffeeCheckTest Coverage Results" MODIFIED="1699819395496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.coffeemachine.CoffeeVendingMachine.*</FILTER>
     </SUITE>
@@ -228,7 +237,7 @@
     <SUITE FILE_PATH="coverage/CoffeeMachine$EspressoTest.ic" NAME="EspressoTest Coverage Results" MODIFIED="1699540847254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.coffeemachine.Coffee.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/CoffeeMachine$All_in_CoffeeMachine.ic" NAME="All in CoffeeMachine Coverage Results" MODIFIED="1699828577077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/CoffeeMachine$All_in_CoffeeMachine.ic" NAME="All in CoffeeMachine Coverage Results" MODIFIED="1699832897706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/CoffeeMachine$LatteTest.ic" NAME="LatteTest Coverage Results" MODIFIED="1699541055928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.coffeemachine.Coffee.*</FILTER>
     </SUITE>
